@@ -1,0 +1,21 @@
+# Photoshop
+*.psd
+
+# Illustrator
+*.ai
+
+# PDF
+*.pdf
+
+# ZIP
+*.zip
+
+# VS Code settings
+.vscode/
+
+# نظام ويندوز
+Thumbs.db
+Desktop.ini
+
+# نظام macOS
+.DS_Store
