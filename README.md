@@ -1,21 +1,49 @@
-DEBO For General Service - Next.js prototype
+# DEBO Travel & Public Services
 
-Quick start:
+موقع احترافي للخدمات العامة والسفر تم تطويره باستخدام HTML وCSS وJavaScript.
 
-1. Install dependencies:
+## 🌐 الموقع المباشر
 
-```bash
-npm install
-```
+https://medo-dep.github.io/DEBO310/
 
-2. Run development server:
+## ✨ الخدمات
 
-```bash
-npm run dev
-```
+- ✈️ حجز تذاكر الطيران
+- 🕋 خدمات الحج والعمرة
+- 📄 التأشيرات
+- 🎓 القبولات الدراسية
+- 💱 التحويلات المالية
+- 🛡️ التأمين
+- 📞 خدمة العملاء
 
-Open http://localhost:3000
+## 🛠️ التقنيات المستخدمة
 
-Notes:
-- This is a static prototype. Form submissions call `/api/send` which only simulates sending an email (logs to console) and then opens WhatsApp with a prefilled message.
-- The project uses Tailwind CSS; run `npm run dev` to see styles.
+- HTML5
+- CSS3
+- JavaScript
+- Git
+- GitHub Pages
+
+## 📱 المميزات
+
+- تصميم متجاوب (Responsive)
+- يدعم اللغة العربية (RTL)
+- تصميم حديث
+- سرعة تحميل جيدة
+- واجهة سهلة الاستخدام
+
+## 🚀 تشغيل المشروع
+
+1. قم بتنزيل المشروع.
+2. افتح ملف `index.html` في المتصفح.
+
+أو شاهد النسخة المباشرة:
+
+https://medo-dep.github.io/DEBO310/
+
+## 👨‍💻 المطور
+
+Mohammed Saleh
+
+GitHub:
+https://github.com/medo-dep
