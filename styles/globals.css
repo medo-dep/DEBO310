@@ -2,19 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
-:root{
-  --navy: #0A2540;
-  --gold: #D4AF37;
+@font-face {
+  font-family: 'QatarArabic';
+  src: url('/fonts/Qatar2022Arabic-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
 
-html,body,#__next{height:100%;}
-body{@apply bg-white text-gray-800 font-sans}
+html {
+  direction: rtl;
+  font-family: 'QatarArabic', system-ui, -apple-system, sans-serif;
+  scroll-behavior: smooth;
+}
 
-.header-link{@apply text-sm font-medium text-gray-700 hover:text-navy}
-.btn-primary{background:linear-gradient(90deg,var(--gold),#b58e2a); padding:.6rem 1rem; border-radius:8px; color:#fff}
-.btn-cta{background:linear-gradient(90deg,#28a745,#218838); padding:.6rem 1rem; border-radius:8px; color:#fff}
-
-.container{max-width:1120px;margin:0 auto;padding:1rem}
-
-/* FAQ specific small overrides */
-.faq-question{cursor:pointer}
+body {
+  background-color: #F8FAFC;
+  color: #0F172A;
+}

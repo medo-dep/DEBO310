@@ -1,21 +1,26 @@
-# Photoshop
-*.psd
+# dependencies
+/node_modules
+/.pnpm-store
 
-# Illustrator
-*.ai
+# next.js
+/.next/
+/out/
 
-# PDF
-*.pdf
+# production
+/build
 
-# ZIP
-*.zip
-
-# VS Code settings
-.vscode/
-
-# نظام ويندوز
-Thumbs.db
-Desktop.ini
-
-# نظام macOS
+# misc
 .DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env*.local
+
+# design assets
+*.ai
+*.eps
